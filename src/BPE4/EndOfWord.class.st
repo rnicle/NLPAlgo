@@ -13,22 +13,46 @@ EndOfWord class >> uniqueInstance [
 	^UniqueInstance ifNil: [ UniqueInstance := self new ].
 ]
 
-{ #category : 'build' }
-EndOfWord >> buildPairFrom: aNode in: aBPE [
-	^self
+{ #category : 'operations' }
+EndOfWord >> addPairAffectedByMergeWith: aSubword in: aBPE [ 
+	
+	^ self
 ]
 
-{ #category : 'build' }
-EndOfWord >> buildPairWith: aLink in: aBPE [
-	^self
+{ #category : 'operations' }
+EndOfWord >> addPairWith: anObject in: aBPE [
+	^ self 
+	
 ]
 
-{ #category : 'update' }
-EndOfWord >> updatePairAt: aNode in: aBPE [
-	^self
+{ #category : 'operations' }
+EndOfWord >> addPairsScoreWith: aSubword in: aBPE [
+	^ self
 ]
 
-{ #category : 'update' }
-EndOfWord >> updatePairFromNode: aNode in: aBPE [
-	^self
+{ #category : 'operations' }
+EndOfWord >> tryAddPairAffectedByMergeWith: anObject in: aBPE [
+	
+	^ self
+]
+
+{ #category : 'operations' }
+EndOfWord >> tryAddPairWith: anObject in: aBPE [
+	^ self 
+]
+
+{ #category : 'operations' }
+EndOfWord >> tryAddPairsScoreWith: anObject in: aBPE [
+	^ self 
+]
+
+{ #category : 'operations' }
+EndOfWord >> tryUpdatePairWith: anObject in: aBPE [
+	^ self 
+]
+
+{ #category : 'operations' }
+EndOfWord >> updatePairWith: aSubword in: aBPE [
+
+	^ self 
 ]
