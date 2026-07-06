@@ -7,5 +7,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Représentation du corpus "FRED TED" sous forme de liste doublement chaînée avec visualisation des paires et de leurs occurrences dans le processus de Byte Pair Encoding.}}{66}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces État de la liste doublement chaînée après fusion de la paire \texttt {(d, \_)}}}{67}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces État de la liste doublement chaînée après fusion de la paire \texttt {(e, d\_)}}}{69}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Benchmark des temps d'entraînement des implémentations du BPE sur les noms de classes de Pharo en fonction de la taille du vocabulaire $n$.}}{101}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Benchmark des temps d'entraînement des implémentations du BPE sur les noms de méthodes de Pharo en fonction de la taille du vocabulaire $n$.}}{102}{figure.5.5}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
